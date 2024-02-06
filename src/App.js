@@ -10,8 +10,10 @@ import "./quickSort.css";
 function App() {
   return (
     <div className="App">
+      <div class="wrapper">
       <BubbleSortVisualizer />
       <QuickSortVisualizer />
+      </div>
     </div>
   );
 }

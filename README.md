@@ -14,7 +14,7 @@ React Sort Visualizerは、様々なソートアルゴリズムを視覚的に�
 
 ## イメージ
 
-![image](https://github.com/0oYujio0/react-sort-visualizer/assets/29910233/4f87c6a2-8bb7-402f-888a-387975f08070)
+![image](https://github.com/0oYujio0/react-sort-visualizer/assets/29910233/b2415ca9-7fa8-4f80-bc3f-3ab98a7b97d7)
 
 ## 使用方法
 

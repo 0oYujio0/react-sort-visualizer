@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+import BubbleSortVisualizer from './bubbleSort';
+import "./bubbleSort.css";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <BubbleSortVisualizer />
     </div>
   );
 }

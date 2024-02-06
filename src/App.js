@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import BubbleSortVisualizer from './bubbleSort';
@@ -10,10 +9,13 @@ import "./quickSort.css";
 function App() {
   return (
     <div className="App">
+      <header className="App-header">Sort Visualizer</header>
       <div class="wrapper">
-      <BubbleSortVisualizer />
-      <QuickSortVisualizer />
+        <BubbleSortVisualizer />
+        <QuickSortVisualizer />
       </div>
+      <footer className="App-footer"></footer>
+    <footer className="App-footer">© 2024 Sort Visualizer. All rights reserved.</footer>
     </div>
   );
 }

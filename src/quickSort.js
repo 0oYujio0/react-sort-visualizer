@@ -74,7 +74,7 @@ const QuickSortVisualizer = () => {
             <div className="grid-container">
                 {numbers.map((number, index) => (
                     // 各数字を色付きのブロックとして表示
-                    <div key={index} style={{ backgroundColor: colorMap[number], width: (number + 1) * 30 + 'px' }} className="grid-item">{number}</div>
+                    <div key={index} style={{ backgroundColor: colorMap[number], width: `calc(${(number + 1) * 20}px + 1vmin)` }} className="grid-item">{number}</div>
                 ))}
             </div>
         </section>
